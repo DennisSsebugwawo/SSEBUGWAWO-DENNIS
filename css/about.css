@@ -1,0 +1,161 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #111;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #ff6600;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 20px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.banner img {
+  width: 100%;
+  height: 400px;
+  filter: brightness(70%);
+}
+
+.banner div {
+  top: 50%;
+  left: 50%;
+  width: 90%;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.vision-mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  max-width: 1100px;
+}
+
+.vision-mission div {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.vision-mission h2 {
+  color: #ff6600;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.vision-mission p, .vision-mission ul {
+  color: #555555;
+  font-size: 16px;
+}
+
+.vision-mission ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.music-dis {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto;
+}
+
+.music-dis img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+  width: 300px;
+  height: 200px;
+}
+
+.partners {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.partners h3 {
+  color: black;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.partners img {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+footer {
+  background-color: #111;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .vision-mission {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vision-mission div {
+    width: 90%;
+  }
+
+  .banner h1 {
+    font-size: 28px;
+  }
+
+  .banner p {
+    font-size: 14px;
+  }
+}
